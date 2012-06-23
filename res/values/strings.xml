@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello World, Lecture3Activity!</string>
+	<string name="app_name">Lecture 3</string>
+	<string name="first">First Activity</string>
+	<string name="second">Second Activity</string>
+	<string name="btn_first">Move to Second Activity</string>
+	<string name="btn_second">Move back to First Activity</string>
+</resources>
