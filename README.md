@@ -51,6 +51,7 @@ In this Lecture, you will learn how to use and customize Activity
 
     ###FirstActivity
     <pre>
+    @Override
     protected void onActivityResult(int requestCode,
             int resultCode, Intent data) {
         if(requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
@@ -61,7 +62,7 @@ In this Lecture, you will learn how to use and customize Activity
     </pre>
 
  * Add more activities. (Check AndroidManifest.xml)
- * Move between these activities. (Including third one)
+ * Move between these activities freely. (Including third one)
 
 ##License
     Copyright (c) on 2012, Masahiro Morodomi
