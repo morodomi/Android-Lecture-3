@@ -36,7 +36,7 @@ In this Lecture, you will learn how to use and customize Activity
     <pre>
     int REQUEST_CODE = 123;
     Intent intent = new Intent(this, SecondActivity.class);
-    startIntentForResult(intent, REQUEST_CODE);
+    startActivityForResult(intent, REQUEST_CODE);
     </pre>
 
     ###SecondActivity
@@ -59,6 +59,30 @@ In this Lecture, you will learn how to use and customize Activity
             String value = bundle.getString("key");
         }
     }
+    </pre>
+ 
+ * Add activity transaction animation.
+    
+    ### Animation XML Sample
+    <pre>
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:fromXScale="0.0"
+        android:toXScale="1.0"
+        android:fromYScale="1.0"
+        android:toYScale="1.0"
+        android:pivotX="50%"
+        android:fillAfter="false"
+        android:startOffset="200"
+        android:duration="200" /&gt;
+    </pre>
+    
+    ### Set Animation method
+    <pre>
+        overridePendingTransition(incomingAnimationId, 
+                outgoingAnimationId);
     </pre>
 
  * Add more activities. (Check AndroidManifest.xml)
