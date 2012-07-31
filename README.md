@@ -81,6 +81,7 @@ In this Lecture, you will learn how to use and customize Activity
     
     ### Set Animation method
     <pre>
+        startActivity(intent);
         overridePendingTransition(incomingAnimationId, 
                 outgoingAnimationId);
     </pre>
