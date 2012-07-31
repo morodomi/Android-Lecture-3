@@ -64,6 +64,9 @@ In this Lecture, you will learn how to use and customize Activity
  * Add more activities. (Check AndroidManifest.xml)
  * Move between these activities freely. (Including third one)
 
+##Presentation Slides (Japanese only)
+http://dl.dropbox.com/u/54119179/Android/android-lecture-3.html
+
 ##License
     Copyright (c) on 2012, Masahiro Morodomi
 
